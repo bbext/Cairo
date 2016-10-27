@@ -1,8 +1,8 @@
 ! Cairo Graphics Library
 
-Version 1.2	
+Version 1.6
 
-Author: Romiras
+Author: Roman Miro, Ivan Denisov, Dmitriy Solomennikov
 
 !! Overview
 
@@ -27,11 +27,13 @@ See the GNU Lesser General Public License  for more details.
 To use this binding some DLLs are required:
 
 * libcairo-2.dll
-* libexpat.dll
-* libfontconfig-1.dll
 * freetype6.dll
+* libexpat-1.dll
+* libfontconfig-1.dll
+* libpixman-1-0.dll
 * libpng12-0.dll
-* libpng13.dll
 * zlib1.dll
 
-You can find them in Windows distribution of GTK+, Inkscape program and possibly, others.
+
+You can find them in Windows distribution of Inkscape 32-bit: http://inkscape.org/download/windows
+
